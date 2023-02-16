@@ -1,10 +1,17 @@
+package controle;
 import java.util.ArrayList;
 
-public class Controle {
+public class ControleCadastro {
     
     ArrayList cadastros = new ArrayList<>();
 
     public void cadastrar (Object user){
+       
+        //cadastra na lista de cadastros
+    
+    }
+
+    public void excluir (Object user){
        
         //cadastra na lista de usuarios
     
