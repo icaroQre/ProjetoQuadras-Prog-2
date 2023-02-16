@@ -2,13 +2,15 @@ package controle;
 
 import java.util.ArrayList;
 
+import modelo.Quadra;
+
 public class ControleQuadra {
     
     ArrayList <Object> listaQuadras = new ArrayList<>();
 
     public ControleQuadra(){}
 
-    public void novaQuadra(){
+    public void novaQuadra(Quadra quadra){
 
         //adiciona a lista de quadra
 
@@ -17,13 +19,6 @@ public class ControleQuadra {
     public void exibirQuadras(){
 
         //exibi lista de quadras
-
-    }
-
-    public void reservarQuadra(Horario horario) {
-
-        //cadastra o horario na lista se ainda estiver disponivel
-        //caso seja um usuario se usuario.aceito = true;
 
     }
 

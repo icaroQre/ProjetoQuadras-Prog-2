@@ -21,17 +21,17 @@ public class Pessoa {
     }
 
     public String getSenha (){
-        return this.nome;
+        return this.senha;
     }
     public void setSenha(String senha){
         this.senha = senha;
     }
 
-    public String getNivel (){
-        return this.nome;
+    public Boolean getNivel (){
+        return this.nivel;
     }
     public void setNivel (Boolean nivel){
         this.nivel = nivel;
     }
-
+    
 }
